@@ -47,7 +47,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'role'); ?>
-		<?php echo $form->textField($model,'role',array('size'=>5,'maxlength'=>5)); ?>
+		<?php echo $form->dropDownList($model,'role',array('user'=>пользователь,'admin'=>администратор)); ?>
 		<?php echo $form->error($model,'role'); ?>
 	</div>
 	

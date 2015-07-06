@@ -13,8 +13,8 @@ $this->pageTitle=Yii::app()->name;
 						'items'=>array(
 							array('label'=>'Главная', 'url'=>array('/site/index')),
 							array('label'=>'Новинки', 'url'=>array('/site/page', 'view'=>'new_product')),
-							array('label'=>'Все товары', 'url'=>array('/shop/product', 'view'=>'all_product')),
-							array('label'=>'Комментарии', 'url'=>array('/shop/comment', 'view'=>'all_comment')), 
+							array('label'=>'Все товары', 'url'=>array('/site/page', 'view'=>'products')),
+							array('label'=>'Комментарии', 'url'=>array('/shop/page', 'view'=>'all_comment')), 
 							array('label'=>'Контакты', 'url'=>array('/site/contact')),
 							),
 					)); ?>

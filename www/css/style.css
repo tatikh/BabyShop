@@ -74,6 +74,7 @@ body{
 	width:919px;
 	overflow:hidden;
 	padding:0 0 7px 0;
+	margin: 0 auto;
 }
 
 #sidebar{
@@ -294,4 +295,8 @@ body{
 	width: 27%;
 }
 
+.span-5 last  >div#sidebar {
+	margin: 0;
+    padding: 0;
 
+}

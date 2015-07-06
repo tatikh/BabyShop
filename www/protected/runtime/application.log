@@ -3878,3 +3878,620 @@ Stack trace:
 REQUEST_URI=/index.php?r=admin/product/view&id=1
 HTTP_REFERER=http://booksh/index.php?r=admin/product/index
 ---
+2015/07/03 23:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "new_product" не найден.' in F:\home\BabyShop\www\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('new_product')
+#1 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 F:\home\BabyShop\www\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('page')
+#6 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "new_product" не найден.' in F:\home\BabyShop\www\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('new_product')
+#1 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 F:\home\BabyShop\www\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('page')
+#6 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "new_product" не найден.' in F:\home\BabyShop\www\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('new_product')
+#1 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 F:\home\BabyShop\www\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('page')
+#6 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/product".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/product')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/product&view=all_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=products
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/03 23:50:52 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:51:07 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:51:08 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:52:40 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:53:13 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:53:37 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:57:18 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:57:20 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:57:45 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:57:47 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/03 23:58:28 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:01:10 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:05:41 [error] [exception.CException] exception 'CException' with message 'Для использования авторизации, построенной на cookie, свойство WebUser.allowAutoLogin должно принять значение "true".' in F:\home\BabyShop\www\framework\web\auth\CWebUser.php:240
+Stack trace:
+#0 F:\home\BabyShop\www\protected\models\LoginForm.php(71): CWebUser->login(Object(UserIdentity), 2592000)
+#1 F:\home\BabyShop\www\protected\controllers\SiteController.php(95): LoginForm->login()
+#2 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('login')
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/login
+HTTP_REFERER=http://babyshop/index.php?r=site/login
+---
+2015/07/04 00:06:03 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:07:34 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:07:40 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:11:47 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:11:49 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/04 00:12:08 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\views\site\pages\products.php:14)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=products
+in F:\home\BabyShop\www\protected\views\site\pages\products.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/06 13:57:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "new_product" не найден.' in F:\home\BabyShop\www\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('new_product')
+#1 F:\home\BabyShop\www\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 F:\home\BabyShop\www\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('page')
+#6 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/view/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/view/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/view/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:08:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/view/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/view/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/view/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=new_product
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:33:20 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "GiiProduct.comment".' in F:\home\BabyShop\www\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\home\BabyShop\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('comment')
+#1 F:\home\BabyShop\www\protected\modules\shop\views\default\index.php(37): CActiveRecord->__get('comment')
+#2 F:\home\BabyShop\www\framework\web\CBaseController.php(126): require('F:\home\BabySho...')
+#3 F:\home\BabyShop\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\home\BabySho...', Array, true)
+#4 F:\home\BabyShop\www\framework\web\CController.php(869): CBaseController->renderFile('F:\home\BabySho...', Array, true)
+#5 F:\home\BabyShop\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): CController->render('index', Array)
+#7 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#13 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=shop
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:39:49 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "GiiProduct.comment".' in F:\home\BabyShop\www\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\home\BabyShop\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('comment')
+#1 F:\home\BabyShop\www\protected\modules\shop\views\default\index.php(39): CActiveRecord->__get('comment')
+#2 F:\home\BabyShop\www\framework\web\CBaseController.php(126): require('F:\home\BabySho...')
+#3 F:\home\BabyShop\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\home\BabySho...', Array, true)
+#4 F:\home\BabyShop\www\framework\web\CController.php(869): CBaseController->renderFile('F:\home\BabySho...', Array, true)
+#5 F:\home\BabyShop\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): CController->render('index', Array)
+#7 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#13 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=shop
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:47:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "shop/page".' in F:\home\BabyShop\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/page')
+#1 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=shop/page&view=all_comment
+HTTP_REFERER=http://babyshop/index.php?r=site/index
+---
+2015/07/06 14:56:37 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "GiiProduct.".' in F:\home\BabyShop\www\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\home\BabyShop\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('')
+#1 F:\home\BabyShop\www\protected\modules\shop\views\default\index.php(22): CActiveRecord->__get('')
+#2 F:\home\BabyShop\www\framework\web\CBaseController.php(126): require('F:\home\BabySho...')
+#3 F:\home\BabyShop\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\home\BabySho...', Array, true)
+#4 F:\home\BabyShop\www\framework\web\CController.php(869): CBaseController->renderFile('F:\home\BabySho...', Array, true)
+#5 F:\home\BabyShop\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): CController->render('index', Array)
+#7 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#13 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=shop
+HTTP_REFERER=http://babyshop/index.php
+---
+2015/07/06 15:03:25 [error] [php] Invalid argument supplied for foreach() (F:\home\BabyShop\www\protected\modules\shop\views\default\index.php:22)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): DefaultController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=shop
+in F:\home\BabyShop\www\protected\modules\shop\views\default\index.php (22)
+in F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php (14)
+in F:\home\BabyShop\www\index.php (13)
+2015/07/06 15:09:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "GiiProduct.comment".' in F:\home\BabyShop\www\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\home\BabyShop\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('comment')
+#1 F:\home\BabyShop\www\protected\modules\shop\views\default\index.php(49): CActiveRecord->__get('comment')
+#2 F:\home\BabyShop\www\framework\web\CBaseController.php(126): require('F:\home\BabySho...')
+#3 F:\home\BabyShop\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\home\BabySho...', Array, true)
+#4 F:\home\BabyShop\www\framework\web\CController.php(869): CBaseController->renderFile('F:\home\BabySho...', Array, true)
+#5 F:\home\BabyShop\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): CController->render('index', Array)
+#7 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 F:\home\BabyShop\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 F:\home\BabyShop\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): CController->run('')
+#12 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController('shop')
+#13 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 F:\home\BabyShop\www\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=shop
+HTTP_REFERER=http://babyshop/index.php
+---
+2015/07/06 15:10:01 [error] [php] Object of class GiiProduct could not be converted to string (F:\home\BabyShop\www\protected\modules\shop\views\default\index.php:49)
+Stack trace:
+#0 F:\home\BabyShop\www\framework\web\CController.php(869): DefaultController->renderFile()
+#1 F:\home\BabyShop\www\framework\web\CController.php(782): DefaultController->renderPartial()
+#2 F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php(14): DefaultController->render()
+#3 F:\home\BabyShop\www\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#4 F:\home\BabyShop\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\home\BabyShop\www\framework\web\CController.php(286): DefaultController->runAction()
+#6 F:\home\BabyShop\www\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#7 F:\home\BabyShop\www\framework\web\CWebApplication.php(282): DefaultController->run()
+#8 F:\home\BabyShop\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\home\BabyShop\www\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 F:\home\BabyShop\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=shop
+in F:\home\BabyShop\www\protected\modules\shop\views\default\index.php (49)
+in F:\home\BabyShop\www\protected\modules\shop\controllers\DefaultController.php (14)
+in F:\home\BabyShop\www\index.php (13)

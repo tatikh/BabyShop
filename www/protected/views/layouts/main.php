@@ -30,7 +30,7 @@
 				array('label'=>'О нас', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Контакты', 'url'=>array('/site/contact')),
 				array('label'=>'Админка', 'url'=>array('/admin'), 'visible' => Yii::app()->user->checkAccess('admin')),
-				array('label'=>'Магазин', 'url'=>array('/shop'), 'visible' => Yii::app()->user->checkAccess('admin')),
+				array('label'=>'Магазин', 'url'=>array('/shop')),
 				array('label'=>'Войти', 'url'=>array('/site/login'), 'visible' => Yii::app()->user->isGuest),
 				array('label'=>'Выйти ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible' => !Yii::app()->user->isGuest),
 				array('label'=>'Регистрация', 'url'=>array('/site/registration'), 'visible' => Yii::app()->user->isGuest),

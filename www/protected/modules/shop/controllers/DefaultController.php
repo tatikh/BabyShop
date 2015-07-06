@@ -7,12 +7,20 @@ class DefaultController extends Controller
 		// $this->render('index');
 	// }
 	
-	public $layout='//layouts/main';
+	//public $layout='//layouts/main';
 	
 	public function actionIndex()
 	{
 		$this->render('index', array('lastProducts' => $this->getLastThreeProducts(),));
 	}
+	
+	
+	public function actionNew_product()
+	{		
+		//var_dump($this->getLastThreeProducts());
+		$this->render('new_product', array('lastProducts' => $this->getLastThreeProducts(),));
+	}
+	
 	
 	
 	private function getLastThreeProducts()
@@ -24,20 +32,19 @@ class DefaultController extends Controller
 		
 		$criteria->with = array(
 			"comments" =>array(
-				// "with" = array(
-					// 'together' => true, // след-й уровень вложенности, приджойнили к Коммент еще таблицу
-				
-			   'together' => true,
-			   'on' => 'comments.is_delete = 0'
+				"with" => array(
+					'together' => true, // след-й уровень вложенности, приджойнили к Коммент еще таблицу
+					'limit' => 3,
+					'select' => 'comments.comment'
+					),
+				'on' => 'comments.is_delete = 0',
+				'together' => true,
 				)
 		);
 
 		$criteria->select = "t.id, t.description, t.name, t.price, t.image";
 		$criteria->limit = 3;
 		$criteria->order = "t.id DESC";
-		
-		$products = Product::model()->findAll($criteria);
-
 
 		//$criteria->select = "id, description";
 		// $criteria->condition = "id=3"; //WHERE в запросах SELECT
@@ -51,18 +58,13 @@ class DefaultController extends Controller
 		//для использ-я INNER указать "joinType" 
 		
 		
-		
-		//print_r($products); //die;
-		
-		//var_dump($lastThreeProducts = Product::model()->findAll($criteria));
-		$lastProducts = Product::model()->findAll($criteria);
+		$lastProducts = Product::model()->with('comments')->findAll($criteria);
 		return $lastProducts;
 		
-		// foreach ($lastThreeProducts as $products) {
-			// var_dump($products->id);
-			// var_dump($products->name);
-			// var_dump($products->description);
-			// echo "</br>";
-		// }
+		foreach ($lastProducts as $products) {
+			var_dump($products->name);
+			var_dump($products->description);
+			echo "</br>";
+		}
     }
 }
