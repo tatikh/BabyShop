@@ -2,10 +2,12 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name . ' - About';
+
 $this->breadcrumbs=array(
 	'О нас',
 );
 ?>
+
 <h1>О магазине</h1>
 
 <p>Добро пожаловать!! Наш детский интернет-магазин (Харьков) дает возможность 

@@ -13,7 +13,7 @@
  * @property Category $parrent
  * @property Category[] $categories
  */
-class Category extends CActiveRecord
+class Category extends GiiCategory
 {
 	
 	

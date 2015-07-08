@@ -13,11 +13,14 @@
  * @property Category $parrent
  * @property Category[] $categories
  */
-class Category extends CActiveRecord
+class GiiCategory extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
+    // Потомки нашей сущности
+    public $childs;
+
 	public function tableName()
 	{
 		return '{{category}}';
@@ -104,4 +107,6 @@ class Category extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
 }

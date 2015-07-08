@@ -11,10 +11,10 @@ $this->pageTitle=Yii::app()->name;
 				<ul>
 					<?php $this->widget('zii.widgets.CMenu',array(
 						'items'=>array(
-							array('label'=>'Главная', 'url'=>array('/site/index')),
-							array('label'=>'Новинки', 'url'=>array('/site/page', 'view'=>'new_product')),
-							array('label'=>'Все товары', 'url'=>array('/site/page', 'view'=>'products')),
-							array('label'=>'Комментарии', 'url'=>array('/shop/page', 'view'=>'all_comment')), 
+							array('label'=>'Акции', 'url'=>array('/site/action')),
+							array('label'=>'Новинки', 'url'=>array('/site/new_product')),
+							array('label'=>'Все товары', 'url'=>array('/site/products')),
+							array('label'=>'Комментарии', 'url'=>array('/site/comments')),
 							array('label'=>'Контакты', 'url'=>array('/site/contact')),
 							),
 					)); ?>
