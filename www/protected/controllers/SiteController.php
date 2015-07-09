@@ -107,7 +107,7 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-	
+
 	public function actionRegistration()
 	{
 		$model=new User;
@@ -130,7 +130,6 @@ class SiteController extends Controller
 
 	private function getProducts()
     {
-
 		//get products
 		$criteria = new CDbCriteria();
 		
@@ -220,4 +219,25 @@ class SiteController extends Controller
     {
         $this->render('action');
     }
+
+    public function actionCategory()
+    {
+        $this->render('category', array('product_category' => $this->getProductCategory($id)));
+    }
+
+    private function getProductCategory($id)
+    {
+        $products = Product::model()->findAll($_GET['id']);
+        //print_r($products);
+        $product_category = array();
+        foreach ($products as $product) {
+            if ($product->category_id == $_GET['id']) {
+                array_push($product_category, $product);
+            }
+        }
+        //print_r($product_category);
+        return $product_category;
+    }
+
+
 }

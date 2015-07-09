@@ -10,63 +10,32 @@ class MyMenuWidget extends CWidget
     /* Запуск виджета    */
     public function run()
     {
-        $this->render('myMenuWidget', array('categories' => $this->getCategories(),));
+        $this->render('myMenuWidget', array('categories' => $this->getCategories()));
     }
-	
-	
-	// public function run()
-	// {
-		// $this->render('myMenuWidget', array('lastProducts' => $this->getLastThreeProducts()));
-	// }
-	
-	private function getCategories(){
-        $criteria = new CDbCriteria();
-        //$Criteria->select='*';
-        $criteria->select = "t.id, t.title, t.parrent_id";
 
-        $categories = Category::model()->findAll($criteria);
+
+
+    public function getCategories($parrent_id = null)
+    {
+       $categories = Category::model()->findAllByAttributes(array('parrent_id' => $parrent_id));
         //var_dump($categories);
         return $categories;
     }
 
-    public function generateItem($id)
+
+    public function renderCategories($categoryList)
     {
-        // ищем все категории (findAll)
-        $model = Category::model()->findAll();
-        //$model = Category::model()->find('parrent_id = :id', array(':id' => $id));
-        // создаем массив
-        $items = array();
-
-        // просматриваем все найденные записи и добавляем в массив $result
-        // все значения в виде пар
-        foreach($model as $buf)
-            $items += array($buf->id => $buf->title);
-
-        // возвращаем полученный результат
-        var_dump($items);
-        return $items;
-    }
-
-    private function buildTree($categories, $rootID = 0)
-    {
-        $tree = array();
-        foreach ($categories as $category->parrent_id) {
-            if ($category->parrent_id == $rootID) {
-                unset($category->id);
-                $cat->childs = $this->buildTree($categories, $category->id);
-                $tree[] = $cat;
+        //print_r($this->getCategories());
+        foreach ($categoryList as $category) {
+            echo "<li><a href='/index.php/site/category/".$category->id."'>$category->title</a></li>";
+            $subCategory = $this->getCategories($category->id);
+            if($subCategory) {
+                echo "<ul class='subitem'>";
+                $this->renderCategories($subCategory);
+                echo "</ul>";
             }
-        }
-        return $tree;
-    }
 
-    public function getTree()
-    {
-        $categories = Category::model()->findAll();
-        echo'<pre>';
-        print_r($categories);
-        echo'</pre>';
-        return $this->buildTree($categories);
+        }
     }
 
 }
