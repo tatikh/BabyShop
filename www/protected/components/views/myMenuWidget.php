@@ -1,8 +1,9 @@
-<ul  id="sidebar" class="item">
-    <?php $this->renderCategories($categories) ?>
+<div class="grey demo-container">
+    <ul  id="accordion-1" class="accordion">
+        <?php $this->renderCategories($categories) ?>
 
-</ul>
+    </ul>
 
-
+</div>
 
 

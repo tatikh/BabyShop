@@ -16,7 +16,7 @@
         echo '<tr>
                     <td align="center">'.$comment->comment.'</td>
 					<td align="center">'.$comment->product->description.'</td>
-					<td align="center"><img src="../images/product/'.$comment->product->image.'" alt="photo" width="150" height="150"/></td>
+					<td align="center"><img src="/images/product/'.$comment->product->image.'" alt="photo" width="150" height="150"/></td>
 
 				</tr>';
 

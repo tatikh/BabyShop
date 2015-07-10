@@ -4,6 +4,9 @@
 
 
 <?php
+
+$url_base = Yii::app()->request->hostInfo;
+var_dump($url_base) ;
 echo "<table class='product' align='center' border='2px' cellpadding='5'>";
 echo '<tr>
 				<td align="center">Название</td>
@@ -19,7 +22,7 @@ foreach($lastProducts as $products){
 					<td align="center">'.$products->name.'</td>
 					<td align="center">'.$products->description.'</td>
 					<td align="center">'.$products->price.'</td>
-					<td><img src="../images/product/'.$products->image.'" alt="photo" width="200" height="200"/></td>';
+					<td><img src="/images/product/'.$products->image.'" alt="photo" width="200" height="200"/></td>' ;
 
 
     if(!empty($products->comments)) {

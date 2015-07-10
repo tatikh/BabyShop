@@ -16,7 +16,7 @@
 					<td align="center"><a href="view.php">'.$products->name.'</a></td>
 					<td align="center">'.$products->description.'</td>
 					<td align="center">'.$products->price.'</td>
-					<td><img src="../images/product/'.$products->image.'" alt="photo" width="200" height="200"/></td>
+					<td><img src="/images/product/'.$products->image.'" alt="photo" width="200" height="200"/></td>
 					
 				</tr>';
 		}

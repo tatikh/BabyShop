@@ -1,0 +1,7 @@
+/* Page .clear {clear: both;} */
+.demo-container {padding: 20px; float: left; width: 260px;}
+.demo-container h4 {font-size: 14px; margin: 0 0 5px 0;}
+ul, ul li{list-style: none;}
+ul.text {margin-bottom: 1em; line-height: 1.5em;}
+.dcjq-count {float: right;}
+.text-center {text-align: center;}

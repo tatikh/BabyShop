@@ -13,8 +13,6 @@ class MyMenuWidget extends CWidget
         $this->render('myMenuWidget', array('categories' => $this->getCategories()));
     }
 
-
-
     public function getCategories($parrent_id = null)
     {
        $categories = Category::model()->findAllByAttributes(array('parrent_id' => $parrent_id));
@@ -27,15 +25,19 @@ class MyMenuWidget extends CWidget
     {
         //print_r($this->getCategories());
         foreach ($categoryList as $category) {
-            echo "<li><a href='/index.php/site/category/".$category->id."'>$category->title</a></li>";
+            echo "<li class='dcjq-parent' class='cat_item'><a  href='/index.php/site/category/".$category->id."'>$category->title <span class='dcjq-icon'></span></a>";
+
             $subCategory = $this->getCategories($category->id);
             if($subCategory) {
-                echo "<ul class='subitem'>";
+                echo "<ul class='cat_subitem'>";
                 $this->renderCategories($subCategory);
                 echo "</ul>";
             }
-
+            "</li>";
         }
     }
+
+
+
 
 }

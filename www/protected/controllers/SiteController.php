@@ -227,17 +227,13 @@ class SiteController extends Controller
 
     private function getProductCategory($id)
     {
-        $products = Product::model()->findAll($_GET['id']);
-        //print_r($products);
-        $product_category = array();
-        foreach ($products as $product) {
-            if ($product->category_id == $_GET['id']) {
-                array_push($product_category, $product);
+            $products = Product::model()->findAll($_GET['id']);
+            $product_category = array();
+            foreach ($products as $product) {
+                if ($product->category_id == $_GET['id']) {
+                    array_push($product_category, $product);
+                }
             }
-        }
-        //print_r($product_category);
-        return $product_category;
+            return $product_category;
     }
-
-
 }

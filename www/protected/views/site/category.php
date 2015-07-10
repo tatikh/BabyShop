@@ -13,13 +13,14 @@
             echo '<tr>
                     <td align="center">'.$product->description.'</td>
 					<td align="center">'.$product->price.'</td>
-					<td align="center"><img src="../images/product/'.$product->image.'" alt="photo" width="150" height="150"/></td>
+					<td align="center"><img src="/images/product/'.$product->image.'" alt="photo" width="150" height="150"/></td>
 
 				</tr>';
 
             echo "</table>";
         }
     } else {
+
        echo  '<p>Нет товаров в этой категории</p>';
     }
 
